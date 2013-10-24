@@ -1,0 +1,136 @@
+/*
+  Margin, padding, and border resets
+  except for form elements
+*/
+
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*
+  Consistency fixes
+  adopted from http://necolas.github.com/normalize.css/
+*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, nav, section, audio, canvas, video {
+  display: block;
+}
+
+html {
+  height: 100%; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+}
+
+body {min-height: 100%; font-size: 100%;}
+
+b, strong {font-weight: bold;}
+
+a img, img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: rgba(255,0,0, 0.62);
+}
+
+/*
+  site specific
+*/
+body {
+  color: #616161;
+  text-align: center;
+  font-family: 'Lucida Grande', arial, sans-serif;
+}
+
+a {
+  color: #616161;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+#grid {
+  width: 400px;
+  margin: 100px auto 0 auto;
+}
+
+#shots {
+  position: relative;
+  display: block;
+  height: 300px;
+  width: 400px;
+}
+
+.shot {
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  transition: opacity 750ms ease-in-out;
+  -webkit-transition: opacity 750ms ease-in-out;
+}
+
+.shot.show {
+  opacity: 1;
+}
+
+.shot a {
+  margin: 0;
+  padding: 0;
+}
+
+.shot img {
+  height: 300px;
+  width: 400px;
+}
+
+footer {
+  margin: 45px 0px;
+  padding: 0px 15px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li.middle {
+  margin: 0px 53px 0px 47px;
+}
+
+footer li a {
+  font-weight: bold;
+  display: block;
+  padding: 4px 6px;
+  transition: all 100ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+}
+
+footer li a:hover {
+  background: #8182c0;
+  color: #fff;
+}
