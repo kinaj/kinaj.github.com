@@ -69,12 +69,12 @@ a:hover {
 	background-image: url(images/scapple.png);
 }
 
-#ios .preview {
-	background-image: url(images/ios.png);
+#macnn .preview {
+  background-image: url(images/macnn.png);
 }
 
-#macnn .preview {
-	background-image: url(images/macnn.png);
+#ios .preview {
+	background-image: url(images/ios.png);
 }
 
 @media (min--moz-device-pixel-ratio: 1.5),
@@ -92,11 +92,11 @@ a:hover {
   	background-image: url(images/scapple_2x.png);
   }
   
-  #ios .preview {
-  	background-image: url(images/ios_2x.png);
-  }
-  
   #macnn .preview {
   	background-image: url(images/macnn_2x.png);
+  }
+
+  #ios .preview {
+    background-image: url(images/ios_2x.png);
   }
 }
