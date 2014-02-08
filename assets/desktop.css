@@ -20,11 +20,13 @@ p {
 a {
   text-decoration: none;
   color: #8b949b;
-  transition: 0.15s ease-in-out;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #e9eff3;
+  transition: 0.1s ease-in-out;
 }
 
 a:hover {
-	color: #000;
+	color: #c8d2d9;
 }
 
 .byline {
