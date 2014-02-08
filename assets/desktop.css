@@ -29,6 +29,16 @@ a:hover {
 	color: #c8d2d9;
 }
 
+ul {
+  position: absolute;
+  right: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .byline {
 	color: #8b949b;
 }
