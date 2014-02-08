@@ -66,6 +66,6 @@ a {
 }
 
 #ios .preview {
-  background-image: url(images/ios.png);
-  margin-top: 30px;
+  	background-image: url(images/ios.png);
+  	margin-top: 30px;
 }

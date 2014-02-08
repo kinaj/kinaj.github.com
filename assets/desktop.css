@@ -32,9 +32,9 @@ a:hover {
 }
 
 .contact {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .content {
@@ -85,7 +85,7 @@ a:hover {
     background-size: 100% 100%;
   }
   #cpp .preview {
-	  background-image: url(images/cpp_2x.png);
+	background-image: url(images/cpp_2x.png);
   }
   
   #scapple .preview {
