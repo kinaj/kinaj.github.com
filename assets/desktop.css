@@ -89,6 +89,14 @@ a:hover {
   #cpp .preview {
 	background-image: url(images/cpp_2x.png);
   }
+
+  #madco .preview {
+	background-image: url(images/madco_2x.png);
+}
+
+#sencha .preview {
+	background-image: url(images/sencha_2x.png);
+}
   
   #scapple .preview {
   	background-image: url(images/scapple_2x.png);
