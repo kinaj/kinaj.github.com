@@ -18,11 +18,11 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: #8b949b;
-  padding-bottom: 2px;
-  border-bottom: 1px solid #e9eff3;
-  transition: 0.1s ease-in-out;
+	text-decoration: none;
+	color: #8b949b;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #e9eff3;
+	transition: 0.1s ease-in-out;
 }
 
 a:hover {
@@ -30,13 +30,13 @@ a:hover {
 }
 
 ul {
-  position: absolute;
-  right: 0;
+	position: absolute;
+	right: 0;
 }
 
 li {
-  display: inline-block;
-  margin-left: 10px;
+	display: inline-block;
+	margin-left: 10px;
 }
 
 .byline {
@@ -44,15 +44,15 @@ li {
 }
 
 .contact {
-  position: absolute;
-  right: 0;
-  top: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .content {
-  position: relative;
-  width: 800px;
-  margin: 120px auto 80px;
+	position: relative;
+	width: 800px;
+	margin: 120px auto 80px;
 }
 
 .info {
@@ -82,7 +82,7 @@ li {
 }
 
 #macnn .preview {
-  background-image: url(images/macnn.png);
+	background-image: url(images/macnn.png);
 }
 
 #ios .preview {
@@ -97,23 +97,23 @@ li {
     background-size: 100% 100%;
   }
   #cpp .preview {
-	background-image: url(images/cpp_2x.png);
+  	background-image: url(images/cpp_2x.png);
   }
 
   #madco .preview {
-	background-image: url(images/madco_2x.png);
-}
+    background-image: url(images/madco_2x.png);
+  }
 
-#sencha .preview {
-	background-image: url(images/sencha_2x.png);
-}
+  #sencha .preview {
+    background-image: url(images/sencha_2x.png);
+  }
   
   #scapple .preview {
-  	background-image: url(images/scapple_2x.png);
+    background-image: url(images/scapple_2x.png);
   }
   
   #macnn .preview {
-  	background-image: url(images/macnn_2x.png);
+    background-image: url(images/macnn_2x.png);
   }
 
   #ios .preview {

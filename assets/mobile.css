@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Carrois Gothic', helvetica, arial;
-  text-align: center;
+	text-align: center;
 }
 
 h1 {
@@ -19,14 +19,14 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: #8b949b;
-  background: #f0f4f8;
-  padding: 4px 8px;
+	text-decoration: none;
+	color: #8b949b;
+	background: #f0f4f8;
+	padding: 4px 8px;
 }
 
 li {
-  display: inline-block;
+	display: inline-block;
 }
 
 li:not(:first-child) {
@@ -38,8 +38,8 @@ li:not(:first-child) {
 }
 
 .content {
-  width: 320px;
-  margin: 60px auto 40px;
+	width: 320px;
+	margin: 60px auto 40px;
 }
 
 .info {
@@ -48,9 +48,9 @@ li:not(:first-child) {
 }
 
 .preview {
-  width: 320px;
-  height: 200px;
-  background-size: 320px 200px;
+	width: 320px;
+	height: 200px;
+	background-size: 100% 100%;
 }
 
 #cpp .preview {
