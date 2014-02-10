@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Carrois Gothic', helvetica, arial;
+	text-align: center;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 30px;
+}
+
+p {
+	padding-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #8b949b;
+	background: #f0f4f8;
+	padding: 4px 8px;
+}
+
+li {
+	display: inline-block;
+}
+
+li:not(:first-child) {
+	padding-left: 10px;
+}
+
+.byline {
+	color: #8b949b;
+}
+
+.content {
+	width: 320px;
+	margin: 60px auto 40px;
+}
+
+.info {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.preview {
+	width: 320px;
+	height: 200px;
+	background-size: 100% 100%;
+}
+
+#cpp .preview {
+	background-image: url(images/cpp.png);
+}
+
+#madco .preview {
+	background-image: url(images/madco.png);
+}
+
+#sencha .preview {
+	background-image: url(images/sencha.png);
+}
+
+#scapple .preview {
+	background-image: url(images/scapple.png);
+}
+
+#macnn .preview {
+	background-image: url(images/macnn.png);
+}
+
+#ios .preview {
+  	background-image: url(images/ios.png);
+  	margin-top: 30px;
+}

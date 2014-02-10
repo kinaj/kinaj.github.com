@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Carrois Gothic', helvetica, arial;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 80px;
+}
+
+p {
+	padding-bottom: 80px;
+}
+
+a {
+	text-decoration: none;
+	color: #8b949b;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #e9eff3;
+	transition: 0.1s ease-in-out;
+}
+
+a:hover {
+	color: #c8d2d9;
+}
+
+ul {
+	position: absolute;
+	right: 0;
+}
+
+li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.byline {
+	color: #8b949b;
+}
+
+.contact {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.content {
+	position: relative;
+	width: 800px;
+	margin: 120px auto 80px;
+}
+
+.info {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.preview {
+	width: 800px;
+	height: 500px;
+}
+
+#cpp .preview {
+	background-image: url(images/cpp.png);
+}
+
+#madco .preview {
+	background-image: url(images/madco.png);
+}
+
+#sencha .preview {
+	background-image: url(images/sencha.png);
+}
+
+#scapple .preview {
+	background-image: url(images/scapple.png);
+}
+
+#macnn .preview {
+	background-image: url(images/macnn.png);
+}
+
+#ios .preview {
+	background-image: url(images/ios.png);
+}
+
+@media (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (-webkit-min-device-pixel-ratio: 1.5),
+       (min-device-pixel-ratio: 1.5) {
+  .preview {
+    background-size: 100% 100%;
+  }
+  #cpp .preview {
+  	background-image: url(images/cpp_2x.png);
+  }
+
+  #madco .preview {
+    background-image: url(images/madco_2x.png);
+  }
+
+  #sencha .preview {
+    background-image: url(images/sencha_2x.png);
+  }
+  
+  #scapple .preview {
+    background-image: url(images/scapple_2x.png);
+  }
+  
+  #macnn .preview {
+    background-image: url(images/macnn_2x.png);
+  }
+
+  #ios .preview {
+    background-image: url(images/ios_2x.png);
+  }
+}
