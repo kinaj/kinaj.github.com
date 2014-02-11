@@ -21,8 +21,8 @@ p {
 a {
 	text-decoration: none;
 	color: #8b949b;
-	background: #f0f4f8;
-	padding: 4px 8px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #e9eff3;
 }
 
 li {
@@ -42,15 +42,16 @@ li:not(:first-child) {
 	margin: 60px auto 40px;
 }
 
-.info {
-	padding-top: 10px;
-	font-size: 14px;
-}
-
 .preview {
 	width: 320px;
 	height: 200px;
 	background-size: 100% 100%;
+}
+
+.project {
+	padding-top: 10px;
+	font-size: 14px;
+	color: #8b949b;
 }
 
 #cpp .preview {
