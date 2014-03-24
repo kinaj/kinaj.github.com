@@ -39,6 +39,11 @@ li {
 	margin-left: 10px;
 }
 
+img {
+	width: 800px;
+	height: 500px;
+}
+
 .byline {
 	color: #8b949b;
 }
@@ -55,69 +60,21 @@ li {
 	margin: 120px auto 80px;
 }
 
-.preview {
-	width: 800px;
-	height: 500px;
-}
-
 .project {
-	padding-top: 10px;
+	padding-top: 6px;
 	font-size: 14px;
 	color: #8b949b;
 }
 
-#cpp .preview {
-	background-image: url(images/cpp.png);
-}
+@media only screen
+		and (min-device-width : 768px)
+		and (max-device-width : 1024px) {
 
-#madco .preview {
-	background-image: url(images/madco.png);
-}
+			.content {
+				margin: 120px 5% 80px 5%;
+			}
 
-#sencha .preview {
-	background-image: url(images/sencha.png);
-}
-
-#scapple .preview {
-	background-image: url(images/scapple.png);
-}
-
-#macnn .preview {
-	background-image: url(images/macnn.png);
-}
-
-#ios .preview {
-	background-image: url(images/ios.png);
-}
-
-@media (min--moz-device-pixel-ratio: 1.5),
-       (-o-min-device-pixel-ratio: 3/2),
-       (-webkit-min-device-pixel-ratio: 1.5),
-       (min-device-pixel-ratio: 1.5) {
-  .preview {
-    background-size: 100% 100%;
-  }
-  #cpp .preview {
-  	background-image: url(images/cpp_2x.png);
-  }
-
-  #madco .preview {
-    background-image: url(images/madco_2x.png);
-  }
-
-  #sencha .preview {
-    background-image: url(images/sencha_2x.png);
-  }
-  
-  #scapple .preview {
-    background-image: url(images/scapple_2x.png);
-  }
-  
-  #macnn .preview {
-    background-image: url(images/macnn_2x.png);
-  }
-
-  #ios .preview {
-    background-image: url(images/ios_2x.png);
-  }
+			img {
+				margin: 0 5% 0 0;
+			}
 }

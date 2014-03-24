@@ -14,15 +14,20 @@ h1 {
 	padding-bottom: 30px;
 }
 
-p {
-	padding-bottom: 50px;
-}
-
 a {
 	text-decoration: none;
 	color: #8b949b;
 	padding-bottom: 2px;
 	border-bottom: 1px solid #e9eff3;
+}
+
+img {
+	width: 100%;
+	margin-top: 40px;
+}
+
+ul {
+	margin-top: 50px;
 }
 
 li {
@@ -42,39 +47,8 @@ li:not(:first-child) {
 	margin: 60px auto 40px;
 }
 
-.preview {
-	width: 320px;
-	height: 200px;
-	background-size: 100% 100%;
-}
-
 .project {
 	padding-top: 10px;
 	font-size: 14px;
 	color: #8b949b;
-}
-
-#cpp .preview {
-	background-image: url(images/cpp.png);
-}
-
-#madco .preview {
-	background-image: url(images/madco.png);
-}
-
-#sencha .preview {
-	background-image: url(images/sencha.png);
-}
-
-#scapple .preview {
-	background-image: url(images/scapple.png);
-}
-
-#macnn .preview {
-	background-image: url(images/macnn.png);
-}
-
-#ios .preview {
-  	background-image: url(images/ios.png);
-  	margin-top: 30px;
 }
