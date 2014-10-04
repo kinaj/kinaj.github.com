@@ -43,7 +43,7 @@ li:not(:first-child) {
 }
 
 .content {
-	width: 320px;
+	width: 100%;
 	margin: 60px auto 40px;
 }
 
