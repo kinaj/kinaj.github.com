@@ -2,7 +2,7 @@
 
 var config = {
        path: "assets/images/",
-     images: "ios macnn scapple sencha madco cpp",
+     images: "sonny ios macnn scapple sencha madco cpp",
   extension: "png"
 },
 
