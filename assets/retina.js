@@ -2,7 +2,7 @@
 
 var config = {
        path: "assets/images/",
-     images: "scrivener sonny ios macnn scapple sencha madco cpp",
+     images: "tapglue scrivener sonny ios macnn scapple sencha madco cpp",
   extension: "png"
 },
 
