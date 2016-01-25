@@ -60,6 +60,15 @@ img {
 	margin: 120px auto 80px;
 }
 
+.imprint {
+	position: absolute;
+	left: 0;
+}
+
+.legal {
+	left: 0;
+}
+
 .project {
 	padding-top: 6px;
 	font-size: 14px;
