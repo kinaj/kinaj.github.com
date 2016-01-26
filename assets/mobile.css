@@ -47,6 +47,12 @@ li:not(:first-child) {
 	margin: 60px auto 40px;
 }
 
+.legal {
+	position: relative;
+	text-align: left;
+	left: 10%;
+}
+
 .project {
 	padding-top: 10px;
 	font-size: 14px;
