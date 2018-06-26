@@ -44,7 +44,7 @@ li:not(:first-child) {
 
 .content {
 	width: 100%;
-	margin: 60px auto 40px;
+	margin: 60px auto 100px;
 }
 
 .legal {

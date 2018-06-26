@@ -57,11 +57,12 @@ img {
 .content {
 	position: relative;
 	width: 800px;
-	margin: 120px auto 80px;
+	margin: 120px auto 120px;
 }
 
 .legal {
 	left: 10%;
+	line-height: 24px;
 }
 
 .project {
