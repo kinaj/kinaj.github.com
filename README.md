@@ -1,2 +1,2 @@
-amazingpixelz.github.com
+kinaj.github.com
 ========================
