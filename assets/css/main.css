@@ -69,7 +69,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 .project-description {
