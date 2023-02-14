@@ -68,8 +68,8 @@ img {
 .project {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 64px;
+    gap: 8px;
+    margin-bottom: 32px;
 }
 
 .project-description {
@@ -81,7 +81,11 @@ img {
 blockquote {
     background-color: var(--img-bg);
     padding: 16px 24px;
-    margin: 0 0 48px;
+    margin: 0 0 32px;
+}
+
+footer {
+    padding-top: 32px;
 }
 
 ul {
@@ -100,6 +104,10 @@ ul {
     text-align: left;
 }
 
+::selection {
+  background: #ff8f0160;
+}
+
 /* < RESPONSIVE STUFF
 -----------------------------------------------------------------------------------------------/*/
 
@@ -114,10 +122,6 @@ ul {
 
     header {
         padding: 0;
-    }
-
-    blockquote {
-        margin: 0 0 48px;
     }
 
     .project-description {
